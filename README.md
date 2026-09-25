@@ -3,6 +3,11 @@
 五个**纯标准库 + 一个可选依赖**的小工具，都是做光子器件仿真时为了"让证据可复核"而写的。
 只解决很小的问题，但每个都对应一个真实踩过的坑。
 
+> **姊妹仓库**：本工具集服务的器件库与偏振旋转器（PSR）条链在
+> [silicon-photonics-device-library](https://github.com/55093693k-dot/silicon-photonics-device-library)；
+> 其中一条链的**工程报告与可复现 notebook** 在
+> [psr-bilevel-eme-scope](https://github.com/55093693k-dot/psr-bilevel-eme-scope)。
+
 | 工具 | 一句话 | 依赖 |
 |---|---|---|
 | `fig_channel/` | 给图件打**渠道标签**（官方导出 vs 外部绘图），标签写进 PNG 元数据 | matplotlib（生成端） |
