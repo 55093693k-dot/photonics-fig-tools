@@ -2,7 +2,7 @@
 """oa_locate.py -- find openly accessible copies of a paper from its DOI.
 
 Why: publisher sites (IEEE/Optica) answer scripted requests with 418/403, so
-"we cannot re-read the figure" would otherwise block a design decision.  The
+"the figure cannot be re-read" would otherwise block a design decision.  The
 OpenAlex API is not bot-blocked and lists every OA location (publisher,
 repository, arXiv, ...) with a direct pdf_url.
 
